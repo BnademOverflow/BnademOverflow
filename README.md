@@ -2,6 +2,23 @@
 
 This repository contains the assets required to build the [BnademOverFlow](https://bnademoverflow.com). We're glad that you want to contribute!
 
+# Add your Self:
+
+If you are a member and you wanna add yourself to the Official community try this :
+
+- Add a new object to this [Speakers.json](https://github.com/BnademOverflow/BnademOverflow/blob/main/speakers.json).
+
+```json
+[
+	{
+		"name": "",
+		"github": "",
+		"twitter": "",
+		"avatar": ""
+	}
+]
+```
+- And contribute to the repository 😴.
 # Using this repository
 
 You can run the website locally, or you can run it in a container runtime. We strongly recommend using the container runtime, as it gives deployment consistency with the live website.
