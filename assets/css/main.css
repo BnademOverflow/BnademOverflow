@@ -1382,7 +1382,7 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), url("images/bg.png");
+  background-image: url("images/overlay.png"), url("images/main-wallpp.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
