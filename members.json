@@ -1,68 +1,74 @@
 [
-  {
-    "name": "Yasser Tahiri",
-    "github": "https://github.com/yezz123",
-    "twitter": "@THyasser1",
-    "avatar": "https://avatars.githubusercontent.com/u/52716203?v=4"
-  },
-  {
-    "name": "Mohamed Ashad",
-    "github": "https://github.com/f0rkr",
-    "twitter": "@f0rkr",
-    "avatar": "https://avatars.githubusercontent.com/u/39636110?v=4"
-  },
-  {
-    "name": "Mounia El Koraichi",
-    "github": "https://github.com/ELmounikor",
-    "twitter": "@ELmounikor",
-    "avatar": "https://avatars.githubusercontent.com/u/56978020?v=4"
-  },
-  {
-    "name": "Elbarae Rguig",
-    "github": "https://github.com/Elbarae1921",
-    "twitter": "@elbarae_rguig",
-    "avatar": "https://avatars.githubusercontent.com/u/44276243"
-  },
-  {
-    "name": "0UR4N05",
-    "github": "https://github.com/0UR4N05",
-    "twitter": "@ouranossama",
-    "avatar": "https://avatars.githubusercontent.com/u/65312444?v=4"
-  },
-  {
-    "name": "cRYP70n",
-    "github": "https://github.com/cRYP70n-13",
-    "twitter": "@Okimdil",
-    "avatar": "https://avatars.githubusercontent.com/u/38794649?v=4"
-  },
-  {
-    "name": "s0v1x",
-    "github": "https://github.com/s0v1x",
-    "twitter": "@sedlabiad",
-    "avatar": "https://avatars.githubusercontent.com/u/42174792?v=4"
-  },
-  {
-    "name": "Aymane11",
-    "github": "https://github.com/Aymane11",
-    "twitter": "@_Enamya",
-    "avatar": "https://avatars.githubusercontent.com/u/24499930"
-  },
-  {
-    "name": "OUTAMA Othmane",
-    "github": "https://github.com/outama-othmane",
-    "twitter": "@OutamaOthmane",
-    "avatar": "https://avatars.githubusercontent.com/u/42810975"
-  },
-  {
-    "name": "Reda Elmarhouch",
-    "github": "https://github.com/RedaElmar",
-    "twitter": "@RedaElmar",
-    "avatar": "https://avatars.githubusercontent.com/u/30802364"
-  },
-  {
-    "name": "Khalil Abdelhamid",
-    "github": "https://github.com/ablil",
-    "twitter": "@_ablil",
-    "avatar": "https://avatars.githubusercontent.com/u/25986426"
-  }
+    {
+        "name": "Yasser Tahiri",
+        "github": "https://github.com/yezz123",
+        "twitter": "@THyasser1",
+        "avatar": "https://avatars.githubusercontent.com/u/52716203?v=4"
+    },
+    {
+        "name": "Mohamed Ashad",
+        "github": "https://github.com/f0rkr",
+        "twitter": "@f0rkr",
+        "avatar": "https://avatars.githubusercontent.com/u/39636110?v=4"
+    },
+    {
+        "name": "Mounia El Koraichi",
+        "github": "https://github.com/ELmounikor",
+        "twitter": "@ELmounikor",
+        "avatar": "https://avatars.githubusercontent.com/u/56978020?v=4"
+    },
+    {
+        "name": "Elbarae Rguig",
+        "github": "https://github.com/Elbarae1921",
+        "twitter": "@elbarae_rguig",
+        "avatar": "https://avatars.githubusercontent.com/u/44276243"
+    },
+    {
+        "name": "0UR4N05",
+        "github": "https://github.com/0UR4N05",
+        "twitter": "@ouranossama",
+        "avatar": "https://avatars.githubusercontent.com/u/65312444?v=4"
+    },
+    {
+        "name": "cRYP70n",
+        "github": "https://github.com/cRYP70n-13",
+        "twitter": "@Okimdil",
+        "avatar": "https://avatars.githubusercontent.com/u/38794649?v=4"
+    },
+    {
+        "name": "s0v1x",
+        "github": "https://github.com/s0v1x",
+        "twitter": "@sedlabiad",
+        "avatar": "https://avatars.githubusercontent.com/u/42174792?v=4"
+    },
+    {
+        "name": "Aymane11",
+        "github": "https://github.com/Aymane11",
+        "twitter": "@_Enamya",
+        "avatar": "https://avatars.githubusercontent.com/u/24499930"
+    },
+    {
+        "name": "OUTAMA Othmane",
+        "github": "https://github.com/outama-othmane",
+        "twitter": "@OutamaOthmane",
+        "avatar": "https://avatars.githubusercontent.com/u/42810975"
+    },
+    {
+        "name": "Reda Elmarhouch",
+        "github": "https://github.com/RedaElmar",
+        "twitter": "@RedaElmar",
+        "avatar": "https://avatars.githubusercontent.com/u/30802364"
+    },
+    {
+        "name": "Khalil Abdelhamid",
+        "github": "https://github.com/ablil",
+        "twitter": "@_ablil",
+        "avatar": "https://avatars.githubusercontent.com/u/25986426"
+    },
+    {
+        "name": "Adibe Mohamed",
+        "github": "https://github.com/adibemohamed",
+        "twitter": "@adibe_mohammed",
+        "avatar": "https://avatars.githubusercontent.com/u/52131981?v=4"
+    }
 ]
