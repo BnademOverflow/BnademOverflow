@@ -5,6 +5,7 @@ module.exports = {
     description: 'BnademOverFlow Official Website',
   },
   plugins: [
+    `gatsby-plugin-preact`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
