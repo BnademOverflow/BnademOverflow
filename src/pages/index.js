@@ -11,10 +11,10 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/Leader-data';
 import modData from '../data/Mod1-data';
 import mod_2_Data from '../data/Mod2-data';
-import HeroImage from '../svg/HeroImage.js';
-import SvgCharts from '../svg/SvgCharts.js';
-import Community from '../svg/Community.js';
-import Testing from '../svg/Testing.js';
+import HeroImage from '../components/svg/HeroImage';
+import SvgCharts from '../components/svg/SvgCharts';
+import Community from '../components/svg/Community';
+import Testing from '../components/svg/Testing';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Index = () => (
@@ -35,7 +35,11 @@ const Index = () => (
             </a>
           </p>
           <p className="mt-4 ml-4 text-gray-600">
-            Join <a href="https://discord.gg/bnademoverflow" target="_blank">Discord</a> Server
+            Join{' '}
+            <a href="https://discord.gg/bnademoverflow" target="_blank">
+              Discord
+            </a>{' '}
+            Server
           </p>
         </div>
         <div className=" lg:w-1/2 m-6">
@@ -60,8 +64,8 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">We are Into...</p>
               <p className="mt-4">
-                A new challenges like creating Twil-Platform where we can write
-                articles, make videos and live streams and make them accessible to the public.
+                A new challenges like creating Twil-Platform where we can write articles, make
+                videos and live streams and make them accessible to the public.
               </p>
             </Card>
           </div>
@@ -69,8 +73,8 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">We Try...</p>
               <p className="mt-4">
-                To be more open and share everything relates to programming & software
-                engineering, CyberSecurity, Tech, and everything in between.
+                To be more open and share everything relates to programming & software engineering,
+                CyberSecurity, Tech, and everything in between.
               </p>
               <br />
             </Card>
@@ -176,7 +180,6 @@ const Index = () => (
         </a>
       </p>
     </section>
-    
   </Layout>
 );
 
