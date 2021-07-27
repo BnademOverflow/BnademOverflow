@@ -11,10 +11,10 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/Leader-data';
 import modData from '../data/Mod1-data';
 import mod_2_Data from '../data/Mod2-data';
-import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
-import Community from '../svg/Community';
-import Testing from '../svg/Testing';
+import HeroImage from '../svg/HeroImage.js';
+import SvgCharts from '../svg/SvgCharts.js';
+import Community from '../svg/Community.js';
+import Testing from '../svg/Testing.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Index = () => (
