@@ -2,52 +2,43 @@
 
 This repository contains the assets required to build the [BnademOverFlow](https://bnademoverflow.com). We're glad that you want to contribute!
 
-## Next.JS version:
+## Next.JS version
 
 We still also working on a version Using Next.JS developed by [@smakosh](https://smakosh.com/) and still not completed!
 
 - you can check it here : [chore/migrate-to-nextjs](https://github.com/BnademOverflow/BnademOverflow/tree/chore/migrate-to-nextjs)
 
+## Using this repository
 
-## Add your Self:
+### Getting Started with Gatsby
 
-- You can now add your self by checking the insturctions here in [Contributing.md](https://github.com/BnademOverflow/BnademOverflow/blob/main/Contributing.md).
+To use Gatsby.js, make sure you have Node.js and npm installed on your machine. Gatsby starters can be installed via the Gatsby CLI tool or by cloning a GitHub repository. Let's explore the CLI tool by first installing it.
 
-- If you aren't a member to the community you can check the Official [BnademOverFlow-Community](https://github.com/BnademOverflow/BnademOverflow-Community), and contribute here first then we can accept it.
+```shell
+# Install the Gatsby CLI tool globally on your machine
+$ npm install --global gatsby-cli
+```
 
-# Using this repository
-
-You can run the website locally, or you can run it in a container runtime. We strongly recommend using the container runtime, as it gives deployment consistency with the live website.
-
-## Prerequisites
+#### Prerequisites
 
 To use this repository, you need the following installed locally:
 
-- [npm](https://www.npmjs.com/)
-- A container runtime, like [Docker](https://www.docker.com/).
-
 Before you start, install the dependencies. Clone the repository and navigate to the directory:
 
-```
-git clone https://github.com/BnademOverflow/BnademOverflow.git
-cd BnademOverflow
-```
+```shell
+# Clone the Repository
+$ git clone https://github.com/BnademOverflow/BnademOverflow.git
+# Change to BnademOverFlow Directory
+$ cd BnademOverFlow
 
-## Running the website using a container
-
-To build the site in a container, run the following to build the container image and run it:
-
-```
-make container-image
-make container-serve
+# Start the dev site, browse to http://localhost:8000/
+$ gatsby develop
 ```
 
-Open up your browser to http://localhost:1313 to view the website. As you make changes to the source files, the website updates and forces a browser refresh.
+## Code of conduct
 
-# Code of conduct
+Participation in the BnademOverFlow community is governed by the [Code of Conduct](docs/Code_of_Conduct.md)
 
-Participation in the BnademOverFlow community is governed by the [Code of Conduct](https://github.com/BnademOverflow/BnademOverflow/blob/main/Code_of_Conduct.md).
-
-# Thank you!
+## Thank you
 
 BnademOverFlow Thanks the community , and appreciate your contributions to our website!
