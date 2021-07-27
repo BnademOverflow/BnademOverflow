@@ -11,7 +11,7 @@ RUN npm install
 
 # Bundle app source
 COPY --chown=node:node . /usr/src/app
-RUN npm install -g serve
+RUN npm install serve
 RUN npm run build
 EXPOSE 5000
 
