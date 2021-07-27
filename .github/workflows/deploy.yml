@@ -1,0 +1,27 @@
+name: Deploy to server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install caprover
+        run: sudo npm install -g caprover
+
+      - name: Install dependencies
+        run: yarn install --non-interactive
+
+      - name: Compile assets
+        run: yarn build
+
+      - name: Create tar
+        run: tar -cvf deploy.tar captain-definition public/*
+
+      - name: Deploy
+        run: caprover deploy -h ${{ secrets.CAPROVER_SERVER }} -p ${{ secrets.CAPROVER_PASSWORD }} -a bnademoverflow -t ./deploy.tar
