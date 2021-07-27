@@ -1,6 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from 'src/components/svg/LogoIcon';
+import LogoIcon from '../svg/LogoIcon';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
