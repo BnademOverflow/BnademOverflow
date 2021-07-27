@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "prod": "serve public/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",

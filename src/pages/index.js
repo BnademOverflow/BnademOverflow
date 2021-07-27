@@ -20,12 +20,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Index = () => (
   <Layout>
     <section className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
+      <div className="container px-8 mx-auto lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">
             BnademOverFlow
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="mt-6 text-xl font-light lg:text-2xl">
             Community with genius people who love to be beside the computer and understand how its
             works.
           </p>
@@ -42,18 +42,18 @@ const Index = () => (
             Server
           </p>
         </div>
-        <div className=" lg:w-1/2 m-6">
+        <div className="m-6  lg:w-1/2">
           <Community />
         </div>
       </div>
     </section>
     <section id="Community" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Community</h2>
-        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+        <h2 className="text-3xl font-semibold lg:text-5xl">Community</h2>
+        <div className="flex flex-col mt-12 sm:flex-row sm:-mx-3">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">We Believe...</p>
+              <p className="text-xl font-semibold">We Believe...</p>
               <p className="mt-4">
                 In a great community with genius people who love to be beside the computer and
                 understand how its works.
@@ -62,7 +62,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">We are Into...</p>
+              <p className="text-xl font-semibold">We are Into...</p>
               <p className="mt-4">
                 A new challenges like creating Twil-Platform where we can write articles, make
                 videos and live streams and make them accessible to the public.
@@ -71,7 +71,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">We Try...</p>
+              <p className="text-xl font-semibold">We Try...</p>
               <p className="mt-4">
                 To be more open and share everything relates to programming & software engineering,
                 CyberSecurity, Tech, and everything in between.
@@ -127,7 +127,7 @@ const Index = () => (
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Community Stat</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
+        <div className="flex flex-col mt-8 sm:flex-row lg:px-24">
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+1000" secondaryText="Facebook Members" />
           </div>
@@ -142,7 +142,7 @@ const Index = () => (
     </section>
     <section id="Leaders" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Community Leaders</LabelText>
+        <LabelText className="mb-8 text-center text-gray-600">Community Leaders</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map((customer) => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -152,7 +152,7 @@ const Index = () => (
         </div>
       </div>
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Community Moderators</LabelText>
+        <LabelText className="mb-8 text-center text-gray-600">Community Moderators</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {modData.map((mod) => (
             <div key={mod.modName} className="flex-1 px-3">
@@ -169,7 +169,7 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section className="container shadow-2xl mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center ">
+    <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg shadow-2xl ">
       <h3 className="text-5xl font-semibold">Ready to grow With Us?</h3>
       <p className="mt-8 text-xl font-light">
         Join our OverFlows family and help us coding, fixing bugs, Testing and writing.
