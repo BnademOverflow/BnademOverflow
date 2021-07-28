@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import CustomerCard from '../components/LeaderCard';
 import ModCard from '../components/ModCard';
 import Mod_2_Card from '../components/Mod_2_Card';
+import Mod_3_Card from '../components/Mod_3_Card';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
@@ -11,16 +12,22 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/Leader-data';
 import modData from '../data/Mod1-data';
 import mod_2_Data from '../data/Mod2-data';
+import mod_3_Data from '../data/Mod3-data';
 import HeroImage from '../components/svg/HeroImage';
 import SvgCharts from '../components/svg/SvgCharts';
 import Community from '../components/svg/Community';
 import Testing from '../components/svg/Testing';
 import Metadata from '../components/metadata';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'gatsby';
 
 const Index = () => (
   <Layout>
-    <Metadata title="Home" description="Community with genius people who love to be beside the computer and understand how its works." image="https://raw.githubusercontent.com/BnademOverflow/BnademOverflow-Community/main/assets/background.png" />
+    <Metadata
+      title="Home"
+      description="Community with genius people who love to be beside the computer and understand how its works."
+      image="https://raw.githubusercontent.com/BnademOverflow/BnademOverflow-Community/main/assets/background.png"
+    />
     <section className="pt-20 md:pt-40">
       <div className="container px-8 mx-auto lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
@@ -31,17 +38,10 @@ const Index = () => (
             Community with genius people who love to be beside the computer and understand how its
             works.
           </p>
-          <p className="mt-8 md:mt-20">
-            <a href="mailto:bnademoverflow@protonmail.com">
+          <p className="mt-8 md:mt-15">
+            <a href="https://discord.gg/bnademoverflow">
               <Button size="lg">Get Started</Button>
             </a>
-          </p>
-          <p className="mt-4 ml-4 text-gray-600">
-            Join{' '}
-            <a href="https://discord.gg/bnademoverflow" target="_blank">
-              Discord
-            </a>{' '}
-            Server
           </p>
         </div>
         <div className="m-6  lg:w-1/2">
@@ -53,27 +53,36 @@ const Index = () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold lg:text-5xl">Community</h2>
         <div className="flex flex-col mt-12 sm:flex-row sm:-mx-3">
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="text-xl font-semibold">We Believe...</p>
+          <div className="flex-1 px-3 pt-8">
+            <Card className="mb-8 shadow-xl">
+              <div className="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                <i className="flex far fa-user-circle"></i>
+              </div>
+              <p className="text-xl font-semibold">We Believe</p>
               <p className="mt-4">
                 In a great community with genius people who love to be beside the computer and
                 understand how its works.
               </p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="text-xl font-semibold">We are Into...</p>
+          <div className="flex-1 px-3 pb-4">
+            <Card className="mb-8 shadow-xl">
+              <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full bg-emerald-400">
+                <i className="flex far fa-paper-plane"></i>
+              </div>
+              <p className="text-xl font-semibold">We are Into</p>
               <p className="mt-4">
                 A new challenges like creating Twil-Platform where we can write articles, make
                 videos and live streams and make them accessible to the public.
               </p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="text-xl font-semibold">We Try...</p>
+          <div className="flex-1 px-3 pt-10">
+            <Card className="mb-8 shadow-xl">
+              <div className="p-4 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                <i className="flex far fa-hand-peace"></i>
+              </div>
+              <p className="text-xl font-semibold">We Try</p>
               <p className="mt-4">
                 To be more open and share everything relates to programming & software engineering,
                 CyberSecurity, Tech, and everything in between.
@@ -153,6 +162,7 @@ const Index = () => (
           ))}
         </div>
       </div>
+      <br />
       <div className="container mx-auto">
         <LabelText className="mb-8 text-center text-gray-600">Community Moderators</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
@@ -169,6 +179,13 @@ const Index = () => (
             </div>
           ))}
         </div>
+        <div className="flex flex-col md:flex-row md:-mx-3">
+          {mod_3_Data.map((mod_3) => (
+            <div key={mod_3.mod_3_Name} className="flex-1 px-3">
+              <Mod_3_Card mod_3={mod_3} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
     <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg shadow-2xl ">
@@ -177,11 +194,23 @@ const Index = () => (
         Join our OverFlows family and help us coding, fixing bugs, Testing and writing.
       </p>
       <p className="mt-8">
-        <a href="https://discord.gg/bnademoverflow" target="_blank">
-          <Button size="xl">Join Us</Button>
-        </a>
+        <div class="field-group mb-6 md:w-full">
+          <div class="w-full text-center">
+            <form action="#">
+              <div class="max-w-sm mx-auto p-1 pr-0 flex items-center">
+                <input
+                  type="email"
+                  placeholder="Bnadem@example.com"
+                  class="flex-1 appearance-none rounded-full shadow p-3 text-grey-dark ml-1 mr-2 focus:outline-none focus:border-blue-300"
+                />
+                <Button size="l">Join Us</Button>
+              </div>
+            </form>
+          </div>
+        </div>
       </p>
     </section>
+    <br />
   </Layout>
 );
 
