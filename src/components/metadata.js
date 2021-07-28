@@ -23,7 +23,7 @@ const Metadata = ({ title, description, image }) => {
     <Helmet>
       <title>{`${metaTitle} | ${data.site.siteMetadata.title}`}</title>
       <meta name="description" content={metaDescription} />
-      <meta property="og:image" content={metaImage} />
+      <meta property="image" content={metaImage} />
     </Helmet>
   );
 };

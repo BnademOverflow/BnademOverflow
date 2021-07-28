@@ -15,7 +15,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'BnademOverFlow',
-        short_name: 'Website',
+        short_name: 'BOF',
+        description: 'BnademOverFlow Official Website',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
