@@ -191,23 +191,12 @@ const Index = () => (
     <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg shadow-2xl ">
       <h3 className="text-5xl font-semibold">Ready to grow With Us?</h3>
       <p className="mt-8 text-xl font-light">
-        Join our OverFlows family and help us coding, fixing bugs, Testing and writing.
+        Join Now OverFlow family and help us Building, Coding, fixing, and Testing.
       </p>
       <p className="mt-8">
-        <div class="field-group mb-6 md:w-full">
-          <div class="w-full text-center">
-            <form action="#">
-              <div class="max-w-sm mx-auto p-1 pr-0 flex items-center">
-                <input
-                  type="email"
-                  placeholder="Bnadem@example.com"
-                  class="flex-1 appearance-none rounded-full shadow p-3 text-grey-dark ml-1 mr-2 focus:outline-none focus:border-blue-300"
-                />
-                <Button size="l">Join Us</Button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <Link href="https://discord.gg/bnademoverflow" target="_blank">
+          <Button size="xl">Join Us</Button>
+        </Link>
       </p>
     </section>
     <br />
