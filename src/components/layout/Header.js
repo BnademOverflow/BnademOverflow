@@ -1,6 +1,6 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../svg/LogoIcon';
+import { Link } from 'gatsby';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -13,18 +13,11 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#Community">
-          Overview
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#About">
-          About
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#Leaders">
-          Community
-        </AnchorLink>
+        <Link to="https://twitter.com/BnademOverFlow">
+          <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-full mr-6">
+            Follow Us
+          </button>
+        </Link>
       </div>
     </div>
   </header>
