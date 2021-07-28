@@ -20,7 +20,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Index = () => (
   <Layout>
-    <Metadata title="Home" description="Community with genius people who love to be beside the computer and understand how its works." image="https://raw.githubusercontent.com/BnademOverflow/BnademOverflow-Community/main/assets/OverFlow_dark.png" />
+    <Metadata title="Home" description="Community with genius people who love to be beside the computer and understand how its works." image="https://raw.githubusercontent.com/BnademOverflow/BnademOverflow-Community/main/assets/background.png" />
     <section className="pt-20 md:pt-40">
       <div className="container px-8 mx-auto lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
