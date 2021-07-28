@@ -3,6 +3,10 @@ module.exports = {
     title: 'BnademOverFlow',
     author: 'BnademOverFlow',
     description: 'BnademOverFlow Official Website',
+    titleTemplate: 'BnademOverFlow',
+    url: 'https://bnademoverflow.com/', // No trailing slash allowed!
+    image: 'src/images/icon.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@BnademOverFlow',
   },
   plugins: [
     `gatsby-plugin-preact`,
@@ -25,5 +29,6 @@ module.exports = {
         tailwindConfig: `tailwind.config.js`,
       },
     },
+    'gatsby-plugin-offline',
   ],
 };

@@ -15,10 +15,12 @@ import HeroImage from '../components/svg/HeroImage';
 import SvgCharts from '../components/svg/SvgCharts';
 import Community from '../components/svg/Community';
 import Testing from '../components/svg/Testing';
+import Metadata from '../components/metadata';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Index = () => (
   <Layout>
+    <Metadata title="Home" description="This is my home page" />
     <section className="pt-20 md:pt-40">
       <div className="container px-8 mx-auto lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
