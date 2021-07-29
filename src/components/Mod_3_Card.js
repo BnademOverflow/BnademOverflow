@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const Mod_3_Card = ({ mod_3 }) => (
-  <Card className="mb-8 shadow-2xl">
+  <Card className="mb-8 shadow-lg">
     <p className="text-xl font-semibold">{mod_3.mod_3_Name}</p>
     <p className="mt-6">{mod_3.content}</p>
     <div className="flex items-center mt-8">
