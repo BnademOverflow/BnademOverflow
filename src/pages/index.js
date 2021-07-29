@@ -153,7 +153,7 @@ const Index = () => (
     </section>
     <section id="Leaders" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-center text-gray-600">Community Leaders</LabelText>
+        <LabelText className="mb-8 text-center text-gray-600 text-3xl">Community Leaders</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map((customer) => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -164,7 +164,7 @@ const Index = () => (
       </div>
       <br />
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-center text-gray-600">Community Moderators</LabelText>
+        <LabelText className="mb-8 text-center text-gray-600 text-3xl">Community Moderators</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {modData.map((mod) => (
             <div key={mod.modName} className="flex-1 px-3">
@@ -188,7 +188,7 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg shadow-2xl ">
+    <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg shadow-xl ">
       <h3 className="text-5xl font-semibold">Ready to grow With Us?</h3>
       <p className="mt-8 text-xl font-light">
         Join Now OverFlow family and help us Building, Coding, fixing, and Testing.
