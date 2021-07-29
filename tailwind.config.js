@@ -10,6 +10,10 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      outline: ['hover', 'active'],
+    },
+  },
   plugins: [],
 };
