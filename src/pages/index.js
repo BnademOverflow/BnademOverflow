@@ -19,7 +19,6 @@ import Community from '../components/svg/Community';
 import Testing from '../components/svg/Testing';
 import Metadata from '../components/metadata';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import { Link } from 'gatsby';
 
 const Index = () => (
   <Layout>
@@ -194,9 +193,9 @@ const Index = () => (
         Join Now OverFlow family and help us Building, Coding, fixing, and Testing.
       </p>
       <p className="mt-8">
-        <Link href="https://discord.gg/bnademoverflow" target="_blank">
+        <a href="https://discord.gg/bnademoverflow" target="_blank">
           <Button size="xl">Join Us</Button>
-        </Link>
+        </a>
       </p>
     </section>
     <br />
