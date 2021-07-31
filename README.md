@@ -1,12 +1,33 @@
 # BnademOverFlow Website
 
+<p align="center">
+  <a href="https://github.com/BnademOverflow/BnademOverflow/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/AGPL-3.0License-blue.svg" alt="BnademOverFlow is released under the AGPL-3.0 license." />
+  </a>
+  <a href="https://github.com/BnademOverflow/BnademOverflow/tree/Nextjs-Version">
+    <img src="https://img.shields.io/badge/Nextjs-Version-black.svg" alt="NextJs Version." />
+  </a>
+  <a href="https://github.com/BnademOverflow/BnademOverflow/actions/workflows/deploy.yml">
+    <img src="https://github.com/BnademOverflow/BnademOverflow/actions/workflows/deploy.yml/badge.svg?branch=main" alt="Test Deploy." />
+  </a>
+  <a href="https://www.gatsbyjs.com/">
+    <img src="https://img.shields.io/badge/Built using-GatsbyJS-brightgreen.svg" alt="Built with GatsbyJS!" />
+  </a>
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/Built using-ReactJS-brightgreen.svg" alt="Built with ReactJS!" />
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=BnademOverFlow">
+    <img src="https://img.shields.io/twitter/follow/BnademOverFlow.svg?label=Follow%20@BnademOverFlow" alt="Follow @BnademOverFlow" />
+  </a>
+</p>
+
 This repository contains the assets required to build the [BnademOverFlow](https://bnademoverflow.com). We're glad that you want to contribute!
 
 ## Next.JS version
 
 We still also working on a version Using Next.JS developed by [@smakosh](https://smakosh.com/) and still not completed!
 
-- you can check it here : [chore/migrate-to-nextjs](https://github.com/BnademOverflow/BnademOverflow/tree/chore/migrate-to-nextjs)
+- you can check it here : [BnademOverFlow/NextJs-Version](https://github.com/BnademOverflow/BnademOverflow/tree/Nextjs-Version)
 
 ## Using this repository
 
