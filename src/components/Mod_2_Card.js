@@ -13,8 +13,9 @@ const Mod_2_Card = ({ mod_2 }) => (
       />
       <div>
         <p className="text-sm text-gray-600">{mod_2.mod_2_Title}</p>
-        
+      <a href={"https://twitter.com/"+mod_2.mod_2_Twitter} target="_blank">
         <p className="text-sm text-gray-600">{mod_2.mod_2_Twitter}</p>
+        </a>
       </div>
     </div>
   </Card>
