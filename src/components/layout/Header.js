@@ -1,6 +1,5 @@
 import React from 'react';
 import LogoIcon from '../svg/LogoIcon';
-import { Link } from 'gatsby';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -13,7 +12,7 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 space-x-4">
-        <Link to="https://twitter.com/BnademOverFlow" target="_blank">
+        <a href="https://twitter.com/BnademOverFlow" target="_blank">
           <button class="bg-blue-300 px-4 py-2 font-semibold text-white inline-flex items-center space-x-4 rounded-full outline-none">
             <svg
               class="w-5 h-5 fill-current"
@@ -25,8 +24,8 @@ const Header = () => (
             </svg>
             <span>Twitter</span>
           </button>
-        </Link>
-        <Link to="https://www.facebook.com/BnademOverflowEvents" target="_blank">
+        </a>
+        <a href="https://www.facebook.com/BnademOverflowEvents" target="_blank">
           <button class="bg-blue-500 px-4 py-2 font-semibold text-white inline-flex items-center space-x-3 rounded-full outline-none">
             <svg
               class="w-5 h-5 fill-current"
@@ -38,9 +37,9 @@ const Header = () => (
             </svg>
             <span>Facebook</span>
           </button>
-        </Link>
+        </a>
       </div>
-      </div>
+    </div>
   </header>
 );
 
