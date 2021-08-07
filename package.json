@@ -15,7 +15,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "gatsby": "^3.0.3",
-    "gatsby-plugin-emotion": "^6.0.0",
+    "gatsby-plugin-emotion": "^6.11.0",
     "gatsby-plugin-manifest": "^3.10.0",
     "gatsby-plugin-offline": "^4.10.0",
     "gatsby-plugin-preact": "^5.10.0",
