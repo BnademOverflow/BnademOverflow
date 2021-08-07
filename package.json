@@ -13,11 +13,11 @@
     "prod": "serve public/"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
     "gatsby": "^3.11.0",
-    "gatsby-plugin-emotion": "^6.0.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "gatsby-plugin-emotion": "^6.11.0",
     "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-offline": "^4.10.0",
+    "gatsby-plugin-offline": "^4.11.0",
     "gatsby-plugin-preact": "^5.10.0",
     "gatsby-plugin-react-helmet": "^4.10.0",
     "gatsby-theme-codebushi": "^1.0.0",
@@ -28,7 +28,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.19.1",
