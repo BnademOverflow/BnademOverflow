@@ -28,7 +28,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.19.1",
