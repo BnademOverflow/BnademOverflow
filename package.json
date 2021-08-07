@@ -13,7 +13,7 @@
     "prod": "serve public/"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "gatsby": "^3.0.3",
     "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-plugin-manifest": "^3.10.0",
