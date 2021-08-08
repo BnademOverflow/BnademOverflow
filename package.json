@@ -10,7 +10,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "prod": "serve public/"
+    "prod": "serve public/",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^3.11.0",
