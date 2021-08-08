@@ -27,7 +27,7 @@ This repository contains the assets required to build the [BnademOverFlow](https
 
 We still also working on a version Using Next.JS developed by [@smakosh](https://smakosh.com/) and still not completed!
 
-- you can check it here : [BnademOverFlow/NextJs-Version](https://github.com/BnademOverflow/BnademOverflow/tree/Nextjs-Version)
+- you can check it here : [BnademOverFlow/NextJs-Version](https://bnademoverflow-nextjs.netlify.app/)
 
 ## Using this repository
 
