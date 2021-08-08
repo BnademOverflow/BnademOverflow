@@ -13,8 +13,8 @@ const CustomerCard = ({ customer }) => (
       />
       <div>
         <p className="text-sm text-gray-600">{customer.customerTitle}</p>
-        <a href={"https://twitter.com/"+customer.customerTwitter} target="_blank">
-        <p className="text-sm text-gray-600">{customer.customerTwitter}</p>
+        <a href={'https://twitter.com/' + customer.customerTwitter} target="_blank">
+          <p className="text-sm text-gray-600">{customer.customerTwitter}</p>
         </a>
       </div>
     </div>

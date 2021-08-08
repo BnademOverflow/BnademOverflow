@@ -163,7 +163,9 @@ const Index = () => (
       </div>
       <br />
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-center text-gray-600 text-3xl">Community Moderators</LabelText>
+        <LabelText className="mb-8 text-center text-gray-600 text-3xl">
+          Community Moderators
+        </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {modData.map((mod) => (
             <div key={mod.modName} className="flex-1 px-3">
