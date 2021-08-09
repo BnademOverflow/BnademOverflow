@@ -27,6 +27,6 @@ export default [
     customerTitle: 'Backend Engineer | OSS Developer',
     customerTwitter: 'THyasser1',
     customerImage:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQGdsn8ja9PaJg/profile-displayphoto-shrink_200_200/0/1616162761067?e=1632960000&v=beta&t=EV6KZE605SZsovZ7nqF0N98gMLQAUH04_O1SIkhOBfY',
+      'https://media-exp1.licdn.com/dms/image/C4D03AQEKOQ_D-jJlKA/profile-displayphoto-shrink_200_200/0/1628077958912?e=1634169600&v=beta&t=-MgnpY35u1e1P8Mwgic1qX8HCPY-fBAJvo7Lx877XUQ',
   },
 ];
