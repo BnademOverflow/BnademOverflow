@@ -79,6 +79,14 @@ const Footer = () => (
                 <i className="flex fab fa-linkedin"></i>
               </button>
             </a>
+            <a href="https://opencollective.com/bnademoverflow" target="_blank">
+              <button
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                type="button"
+              >
+                <i className="flex fas fa-dollar-sign"></i>
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-6/12 px-4">
