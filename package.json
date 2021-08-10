@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.11.0",
+    "gatsby": "^3.11.1",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "gatsby-plugin-emotion": "^6.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
