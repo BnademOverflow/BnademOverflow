@@ -18,7 +18,7 @@
     "gatsby": "^3.12.1",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "gatsby-plugin-preact": "^5.12.0",
-    "gatsby-plugin-manifest": "^3.12.0",
+    "gatsby-plugin-manifest": "^3.13.0",
     "gatsby-plugin-emotion": "^6.12.0",
     "gatsby-plugin-offline": "^4.12.0",
     "gatsby-plugin-react-helmet": "^4.13.0",
