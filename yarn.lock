@@ -5366,11 +5366,12 @@ gatsby-plugin-postcss@^2.1.16:
     "@babel/runtime" "^7.11.2"
     postcss-loader "^3.0.0"
 
-gatsby-plugin-preact@^5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-5.13.0.tgz#30fc18a7e84b82efa7ca0914073c785a5451479b"
-  integrity sha512-JtmpmbKbhQuLCjW89Srq0wb4T2r6fcIEhVGIEoOlb9gmgo+y8ZTKwuEp5rJtNYJ4iTJ12ykgU9pF9XtEiqnvmQ==
+gatsby-plugin-preact@^5.14.0:
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-5.14.0.tgz#48641446645f4a2fa276b11b08d73c3f96a90bcf"
+  integrity sha512-wopLSjlcODojNZbBZk5nT6E6saHKOuQyGJ32yJ5V8wq8HheN3qq+WbAdo5QRLR7HJ9fiq3Mz9MDVhfG72qzllg==
   dependencies:
+    "@babel/runtime" "^7.15.4"
     "@gatsbyjs/webpack-hot-middleware" "^2.25.2"
     "@prefresh/babel-plugin" "^0.4.1"
     "@prefresh/webpack" "^3.3.2"
