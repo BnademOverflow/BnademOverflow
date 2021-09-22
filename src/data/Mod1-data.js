@@ -24,7 +24,7 @@ export default [
       'Create Web App Security challenges and share them with others so they can learn from them. Mod of @BnademOverFlow',
     modName: 'Aymen EL Haski',
     modTitle: 'Penetration Tester | Content Engineer',
-    modTwitter: '4a616b6f6d',
+    modTwitter: '6a616b6f6d',
     modImage:
       'https://media-exp1.licdn.com/dms/image/C5603AQHicDuMdQQXBQ/profile-displayphoto-shrink_200_200/0/1625824178019?e=1632960000&v=beta&t=s-9EVP2hgbmZBmBUGecJAu_QLIlLpS24qpV0apqZatA',
   },
