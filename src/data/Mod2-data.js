@@ -7,7 +7,7 @@ export default [
     mod_2_Title: 'Software engineer at 4D',
     mod_2_Twitter: 'vmod__',
     mod_2_Image:
-      'https://media-exp1.licdn.com/dms/image/C5603AQHl8g5Ja4chDQ/profile-displayphoto-shrink_200_200/0/1570744467581?e=1632960000&v=beta&t=MlyhniL67-AZNElbwGh0J5n6y5_lpS9MknRttnP0jkk',
+      'https://avatars.githubusercontent.com/u/42954251?v=4',
   },
   {
     title: 'kxikx',
@@ -17,7 +17,7 @@ export default [
     mod_2_Title: 'Cyber Security Analyst at CAPVALUE',
     mod_2_Twitter: 'mhamed_kchikech',
     mod_2_Image:
-      'https://media-exp1.licdn.com/dms/image/C5603AQHu3_Lk_OgTuA/profile-displayphoto-shrink_200_200/0/1580415933194?e=1632960000&v=beta&t=IWafXEL9io6bilPYUo2hfjeu5D5Fx1yuRy3FEBjqf0g',
+      'https://pbs.twimg.com/profile_images/1293642362946752513/LNFshUsH_400x400.jpg',
   },
   {
     title: 'uncle Jeff',
