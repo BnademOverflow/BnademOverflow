@@ -17,7 +17,7 @@ export default [
     customerTitle: 'VP of Engineering at [redacted]',
     customerTwitter: 'AlaaZorkane',
     customerImage:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQGvjV_mCVxxwA/profile-displayphoto-shrink_200_200/0/1607545078785?e=1632960000&v=beta&t=HPkMjlHKv3pFvKUU8rcDoAJ9AXpuX03ZAZ9KqjhDCkQ',
+      'https://pbs.twimg.com/profile_images/1361779653703315463/VE1hetIu_400x400.jpg',
   },
   {
     title: 'Yezz123',
@@ -27,6 +27,6 @@ export default [
     customerTitle: 'Backend Engineer | OSS Developer',
     customerTwitter: 'THyasser1',
     customerImage:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQEKOQ_D-jJlKA/profile-displayphoto-shrink_200_200/0/1628077958912?e=1634169600&v=beta&t=-MgnpY35u1e1P8Mwgic1qX8HCPY-fBAJvo7Lx877XUQ',
+      'https://avatars.githubusercontent.com/u/52716203?v=4',
   },
 ];
