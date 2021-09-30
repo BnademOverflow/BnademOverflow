@@ -7,7 +7,7 @@ export default [
     customerTitle: 'Software engineer',
     customerTwitter: 'KernelOverseer',
     customerImage:
-      'https://media-exp1.licdn.com/dms/image/C5603AQFlElTzL4awkw/profile-displayphoto-shrink_200_200/0/1553890074793?e=1632960000&v=beta&t=w2SZt4gtnMazMUp28ig1qMf2kh4mqmGWA90HAsIvPHA',
+      'https://avatars.githubusercontent.com/u/43656267?v=4',
   },
   {
     title: 'droven0101',

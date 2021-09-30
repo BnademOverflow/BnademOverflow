@@ -16,7 +16,7 @@ export default [
     modTitle: 'Software Engineer',
     modTwitter: 'Stormix_co',
     modImage:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQHy3gLKZGhp-w/profile-displayphoto-shrink_200_200/0/1590562205958?e=1632960000&v=beta&t=cgI2l10X6wK55RjAE09SCBG8FWRfwnpB2G4W64q4SuQ',
+      'https://avatars.githubusercontent.com/u/18377687?v=4',
   },
   {
     title: 'Jakom',
@@ -26,6 +26,6 @@ export default [
     modTitle: 'Penetration Tester | Content Engineer',
     modTwitter: '6a616b6f6d',
     modImage:
-      'https://media-exp1.licdn.com/dms/image/C5603AQHicDuMdQQXBQ/profile-displayphoto-shrink_200_200/0/1625824178019?e=1632960000&v=beta&t=s-9EVP2hgbmZBmBUGecJAu_QLIlLpS24qpV0apqZatA',
+      'https://avatars.githubusercontent.com/u/48088579?v=4',
   },
 ];

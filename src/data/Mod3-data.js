@@ -7,7 +7,7 @@ export default [
     mod_3_Title: 'FullStack Developer',
     mod_3_Twitter: 'geekyumeko',
     mod_3_Image:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQFkm8__8zmOSw/profile-displayphoto-shrink_200_200/0/1570297565700?e=1632960000&v=beta&t=wetJd9H1uZ8hHIhtjbVX6dEA350iOSzl31sykNWGKS4',
+      'https://avatars.githubusercontent.com/u/43966560?v=4',
   },
   {
     title: 'Rraji Abdelbari',
