@@ -47,7 +47,7 @@ const Footer = () => (
                 <i className="flex fab fa-facebook-square"></i>
               </button>
             </a>
-            <a href="https://discord.gg/bnademoverflow" target="_blank">
+            <a href="https://bit.ly/3BafdEU" target="_blank">
               <button
                 className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
                 type="button"

@@ -38,7 +38,7 @@ const Index = () => (
             works.
           </p>
           <p className="mt-8 md:mt-15">
-            <a href="https://discord.gg/bnademoverflow">
+            <a href="https://bit.ly/3BafdEU">
               <Button size="lg">Get Started</Button>
             </a>
           </p>
@@ -195,7 +195,7 @@ const Index = () => (
         Join Now OverFlow family and help us Building, Coding, fixing, and Testing.
       </p>
       <p className="mt-8">
-        <a href="https://discord.gg/bnademoverflow" target="_blank">
+        <a href="https://bit.ly/3BafdEU" target="_blank">
           <Button size="xl">Join Us</Button>
         </a>
       </p>
