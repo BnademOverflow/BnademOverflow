@@ -90,8 +90,8 @@ const Footer = () => (
           </div>
         </div>
         <div className="w-full lg:w-6/12 px-4">
-          <div className="flex flex-wrap items-top mb-6">
-            <div className="w-full lg:w-4/12 px-4 ml-auto">
+          <div className="flex flex-wrap items-top mb-0 md:mb-6">
+            <div className="w-full lg:w-4/12 px-0 md:px-4 ml-auto mb-4 md:mb-0">
               <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                 Useful Links
               </span>
@@ -124,7 +124,7 @@ const Footer = () => (
               </ul>
             </div>
             <br />
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full lg:w-4/12 px-0 md:px-4">
               <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                 Other Resources
               </span>
