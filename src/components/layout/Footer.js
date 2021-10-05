@@ -22,10 +22,10 @@ const Footer = () => (
           <h5 className="text-lg mt-3 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
-          <div className="my-6">
+          <div className="my-6 grid grid-cols-6 gap-2 md:gap-0 md:flex md:space-x-2">
             <a href="mailto:bnademoverflow@pm.me" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fas fa-at"></i>
@@ -33,7 +33,7 @@ const Footer = () => (
             </a>
             <a href="https://twitter.com/BnademOverFlow" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-twitter"></i>
@@ -41,7 +41,7 @@ const Footer = () => (
             </a>
             <a href="https://www.facebook.com/BnademOverflowEvents" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-facebook-square"></i>
@@ -49,7 +49,7 @@ const Footer = () => (
             </a>
             <a href="https://bit.ly/3BafdEU" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-discord"></i>
@@ -57,7 +57,7 @@ const Footer = () => (
             </a>
             <a href="https://github.com/BnademOverflow" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-github"></i>
@@ -65,7 +65,7 @@ const Footer = () => (
             </a>
             <a href="https://www.twitch.tv/bnademoverflow" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-twitch"></i>
@@ -73,7 +73,7 @@ const Footer = () => (
             </a>
             <a href="https://www.linkedin.com/company/bnademoverflow" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fab fa-linkedin"></i>
@@ -81,7 +81,7 @@ const Footer = () => (
             </a>
             <a href="https://opencollective.com/bnademoverflow" target="_blank">
               <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-1"
+                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none p-1"
                 type="button"
               >
                 <i className="flex fas fa-dollar-sign"></i>
