@@ -142,10 +142,10 @@ const Index = () => (
             <StatsBox primaryText="+1000" secondaryText="Facebook Members" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+400" secondaryText="Twitter Followers" />
+            <StatsBox primaryText="+600" secondaryText="Twitter Followers" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+800" secondaryText="Discord Members" />
+            <StatsBox primaryText="+900" secondaryText="Discord Members" />
           </div>
         </div>
       </div>
