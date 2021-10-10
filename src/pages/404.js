@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
 import Metadata from '../components/metadata';
 import { Link } from 'gatsby';
@@ -19,9 +20,7 @@ const NotFound = () => (
               Oops! The page you are looking for does not exist or still in development mode.
             </p>
             <Link to="/">
-              <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-full mr-6">
-                Home
-              </button>
+              <Button>Home</Button>
             </Link>
           </div>
         </div>
