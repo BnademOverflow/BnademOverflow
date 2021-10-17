@@ -20,12 +20,12 @@ export default [
       'https://pbs.twimg.com/profile_images/1293642362946752513/LNFshUsH_400x400.jpg',
   },
   {
-    title: 'uncle Jeff',
+    title: 'Mounir Sabiri',
     content:
-      'C Lang and Assembly Developer with a deep Knowledge into Linux environments. Mod of BnademOverFlow',
-    mod_2_Name: 'Uncle Jeff',
-    mod_2_Title: 'Low Level | Unix Developer',
-    mod_2_Twitter: 'Jeffsepticeye2',
-    mod_2_Image: 'https://avatars.githubusercontent.com/u/71389295?v=4',
+      'Who ever stayed tuned to see his creativity blow will be granted passage to the next level. Mod of @BnademOverFlow.',
+    mod_2_Name: 'Mounir Sabiri',
+    mod_2_Title: 'Game Developer | C/C++ Dev',
+    mod_2_Twitter: 'MounirSabiri',
+    mod_2_Image: 'https://avatars.githubusercontent.com/u/54768823?v=4',
   },
 ];
