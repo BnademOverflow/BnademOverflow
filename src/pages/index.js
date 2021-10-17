@@ -4,7 +4,6 @@ import Card from '../components/Card';
 import CustomerCard from '../components/LeaderCard';
 import ModCard from '../components/ModCard';
 import Mod_2_Card from '../components/Mod_2_Card';
-import Mod_3_Card from '../components/Mod_3_Card';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
@@ -12,7 +11,6 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/Leader-data';
 import modData from '../data/Mod1-data';
 import mod_2_Data from '../data/Mod2-data';
-import mod_3_Data from '../data/Mod3-data';
 import HeroImage from '../components/svg/HeroImage';
 import SvgCharts from '../components/svg/SvgCharts';
 import Community from '../components/svg/Community';
@@ -177,13 +175,6 @@ const Index = () => (
           {mod_2_Data.map((mod_2) => (
             <div key={mod_2.mod_2_Name} className="flex-1 px-3">
               <Mod_2_Card mod_2={mod_2} />
-            </div>
-          ))}
-        </div>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {mod_3_Data.map((mod_3) => (
-            <div key={mod_3.mod_3_Name} className="flex-1 px-3">
-              <Mod_3_Card mod_3={mod_3} />
             </div>
           ))}
         </div>
