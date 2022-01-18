@@ -27,7 +27,7 @@
     "preact-render-to-string": "^5.1.19",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-countup": "^6.1.0",
+    "react-countup": "^6.1.1",
     "react-dom": "^17.0.1",
     "react-visibility-sensor": "^5.1.1"
   },
